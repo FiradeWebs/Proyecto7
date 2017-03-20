@@ -30,7 +30,7 @@
 	    </script>	
 	</head>
 	<body>
-		<form name="login" action="php/iniciar_sesion_proc.php" method="POST" onsubmit="return validar();">
+		<form name="login" action="php/iniciar_sesion_proc.php" method="POST" >
 			<div>
 				<p class="nickname">
 					Nombre de usuario:<br/>
