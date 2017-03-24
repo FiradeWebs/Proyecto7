@@ -14,3 +14,118 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+body{
+	margin: 0 0 0 0;
+}
+#menu {
+height: 52px;
+width: 100%;
+background-color: grey;
+}
+#logo{
+	/*position: relative;*/
+	height: -15rem;
+	width: 95%;
+	/*margin-bottom: 100px;*/
+	padding-bottom: 100px;
+	padding-top: 0.5rem; 
+	padding-left: center;
+	
+}
+#img{
+	height: -15rem;
+	width: 60%;
+	padding-top: 0.5rem;
+	padding-left: 21%;
+}
+
+#slices {
+height: 359px;
+width: 100%;
+background-color: #FF0;
+}
+
+#cuerpo {
+height: 2000px;
+width: 100%;
+background-color: #C60;
+}
+
+#contenedor {
+width: 100%;
+}
+
+#footer {
+display: inline-block;
+float:left;
+position: fixed;
+height: 4rem ;
+width: 100%;
+bottom: 0px;
+background-color: grey;
+}
+
+#matchmaking{
+position: relative;
+height: 17rem;
+width: 27.5%;
+margin-left: 36.25%;
+bottom: 1.5rem;
+background-color: lightgrey;
+border-radius: 215px 215px 0px 0px;
+-moz-border-radius: 215px 215px 0px 0px;
+-webkit-border-radius: 215px 215px 0px 0px;
+border: 0px solid #000000;
+/*background-image: url("footer/icono.png");*/
+
+}
+
+#opcion1 {
+display: inline-block;
+float: left;
+height: 120%;
+width: 17.5%;
+background-color: grey;
+bottom: 0px;
+}
+
+#opcion2 {
+display: inline-block;
+float: left;
+height: 120%;
+width: 22.5%;
+background-color: grey;
+bottom: 0px;
+}                              
+
+#opcion3 {
+display: relative;
+float: left;
+height: 100%;
+width: 20%;
+background-color: yellow;
+bottom: 1.5rem;
+
+height: 17rem;
+border-radius: 215px 215px 0px 0px;
+-moz-border-radius: 215px 215px 0px 0px;
+-webkit-border-radius: 215px 215px 0px 0px;
+border: 0px solid #000000;
+}
+#opcion4 {
+display: inline-block;
+float: left;
+height: 120%;
+width: 22.5%;
+background-color: grey;
+bottom: 0px;
+}
+
+#opcion5 {
+display: inline-block;
+float: left;
+height: 120%;
+width: 17.5%;
+background-color: grey;
+bottom: 0px;
+}
