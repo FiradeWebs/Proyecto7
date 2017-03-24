@@ -49,7 +49,7 @@
 
     <div class="omb_login">
 			<img src="./img/logo_17-03(v2).png">
-    	<h5 class="omb_authTitle">Inicia Sesión o<a href="#"> Registrate</a></h5>
+    	<h5 class="omb_authTitle">Inicia Sesión o<a href="./php/registro.php"> Registrate</a></h5>
 		<div class="row omb_row-sm-offset-3 omb_socialButtons">
     	    <div class="col-xs-4 col-sm-2">
 		        <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
@@ -80,20 +80,20 @@
 
 		<div class="row omb_row-sm-offset-3">
 			<div class="col-xs-12 col-sm-6">
-			    <form class="omb_loginForm" name="f1" action="./php/iniciar_sesion_proc.php" method="GET">
+			    <form class="omb_loginForm" name="f1" action="php/iniciar_sesion.proc.php" method="POST">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-user"></i></span>
-						<input type="text" class="form-control" name="usuario" placeholder="email address">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Username">
 					</div>
 					<span class="help-block"></span>
 
 					<div class="input-group">
 						<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-						<input  type="password" class="form-control" name="pass" placeholder="Password">
+						<input  type="password" class="form-control" id="pass" name="pass" placeholder="Password">
 					</div>
           <br>
 
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+					<button class="btn btn-lg btn-primary btn-block" id="send" type="submit">Login</button>
 				</form>
 			</div>
     	</div>

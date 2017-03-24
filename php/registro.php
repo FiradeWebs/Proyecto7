@@ -43,7 +43,7 @@
 	<body>
 			<div class="container">
 				<div class="omb_login">
-						
+
 				 <div class="row omb_row-sm-offset-3">
 			<div class="col-xs-12 col-sm-6">
 
@@ -58,27 +58,31 @@
 				<!--Apellido1 -->
 				 <div class="input-group">
 					   		<span class="input-group-addon"><i class="fa fa-user"></i></span>
-					  		  
+
 					    		  <input type="text" class="form-control" id="s_lastname1" name="s_lastname1" placeholder="Introduzca sus apellidos">
-					    	
+
 					  </div>
 					    <br>
 				<!-- end Apellido1 -->
 				<!--Apellido2 -->
-		
+
 			<div class="input-group">
 					   		<span class="input-group-addon"><i class="fa fa-female" aria-hidden="true"></i>/<i class="fa fa-male" aria-hidden="true"></i></span>
-					    		  <input type="text" class="form-control" id="s_lastname2" name="s_lastname2" placeholder="Introduzca su sexo">
-					    	 
+					    		  <select  class="form-control" id="s_lastname2" name="s_lastname2" >
+											<option value="Masculino">Masculino</option>
+											<option value="Femenino">Femenino</option>
+											<option value="Otro">Otro</option>
+										</select>
+
 					  </div>
 					    <br>
 				<!-- end Apellido2 -->
 				<!--Correo -->
 					  <div class="input-group">
 					   		<span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-					  		  
+
 					    		  <input type="email" class="form-control" id="s_email" name="s_email" placeholder="Email">
-					    	 
+
 					  </div>
 					    <br>
 				<!--End Correo -->
@@ -91,24 +95,24 @@
 				<!--End Dirección -->
 				<!--Nickname -->
 					  <div class="input-group">
-					  <span class="input-group-addon"><i class="fa fa-user"></i></span>					  		  
+					  <span class="input-group-addon"><i class="fa fa-user"></i></span>
 					    		  <input type="text" class="form-control" id="s_nickname" name="s_nickname" placeholder="Nickname">
-					    	
+
 					  </div>
 					    <br>
 				<!--End Nickname -->
 				<!--Contraseña -->
 					  <div class="input-group">
 					    	<span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
-					   			 
+
 					  			    <input type="password" class="form-control" id="s_password" name="s_password" placeholder="Contraseña">
-					    		
+
 					  </div>
 					    <br>
 				<!--End contraseña -->
 				<!--Contraseña -->
 					  <div class="input-group">
-					  <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>	
+					  <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
 								    <input type="password" class="form-control" id="s_rpassword" placeholder="Por favor repita su contraseña">
 					  </div>
 					    <br>

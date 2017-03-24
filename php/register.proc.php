@@ -1,4 +1,4 @@
-<?php 
+<?php
 extract($_POST);
 	require_once('conexion.php');
 	//primero comprobamos que el usuario no exista
@@ -11,7 +11,7 @@ extract($_POST);
 	//Comprobamos si el resultado ya existe
 	if($total>=1){
 		echo "<script type='text/javascript'>alert('Ya se encuentra registrado');
-			location.href='../../index.php';</script>";
+			location.href='../index.php';</script>";
 	}
 		//Si no existe, lo añadimos a la base de datos
 	else{
@@ -20,6 +20,6 @@ extract($_POST);
 		//echo $inser_con;die;
 		mysqli_query($conexion,$inser_con);
 		echo "<script type='text/javascript'>alert('registro completado');
-			location.href='../../index.php';</script>";
+			location.href='../index.php';</script>";
 	}
  ?>
