@@ -54,12 +54,12 @@
     <div id="status"></div>
 
 	<div id="footer">
-	        <div id ="opcion1"><img id="img" src="../img/footer/ajuste1.png"></div>
-	        <div id="opcion2"><img id="img" src="../img/footer/agenda.png"></div>
-	        <div id="opcion3"><img id="logo" src="../img/footer/logo.png"></div>
-	        <div id="opcion4"><img id="img" src="../img/footer/perfil1.png"></div>
-	        <div id="opcion5"><img id="img"  src="../img/footer/ubicacion.png"></div>
-	        <!-- <div id="matchmaking"><img id="logo" src="footer/logo.png"></div> -->
+	    <div id ="opcion1"><img id="img" src="../img/footer/ajuste1.png"></div>
+        <div id="opcion2"><img id="img" src="../img/footer/agenda.png"></div>
+        <div id="opcion3"></div>
+        <div id="opcion4"><img id="img" src="../img/footer/perfil1.png"></div>
+        <div id="opcion5"><img id="img"  src="../img/footer/ubicacion.png"></div>
+        <div id="matchmaking"><img id="logo" src="../img/footer/logo.png"></div>
 	</div>
 
 	</body>
