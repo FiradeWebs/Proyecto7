@@ -20,7 +20,7 @@ extract($_POST);
 						?>
 							<script>
  
-							alert('Las claves no coinciden');
+							alert('Las contraseñas no coinciden');
 							location.href = "registro.php";
 							</script>
  
