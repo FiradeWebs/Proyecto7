@@ -109,6 +109,7 @@ if (!isset($_SESSION["usu_id"])){
 				<div class="row omb_row-sm-offset-3">
 					  <div class="col-xs-12 col-sm-6">
 					  	<button class="btn btn-lg btn-primary btn-block" onclick="return reg_validar();">¡Regístrate!</button>
+							<br>
 					  	<input type="reset" class=" btn btn-lg btn-primary btn-block" value="Borrar datos" />
 					  </div>
 				</div>

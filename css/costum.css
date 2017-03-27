@@ -3,6 +3,10 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+.container{
+      width: 90%;
+      margin-bottom: 100px;
+}
 .omb_login {
   text-align: center;
 }
@@ -33,7 +37,7 @@ img {
   background: white;
   border: 10px solid #e2e2e2;
   border-radius: 50px;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .omb_loginForm {
   padding: 50px;
