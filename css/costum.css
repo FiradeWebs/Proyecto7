@@ -1,122 +1,43 @@
-@media (min-width:768px){.omb_row-sm-offset-3 div:first-child[class*="col-"]{margin-left:25%}}.omb_login .omb_authTitle{text-align:center;line-height:300%}.omb_login .omb_socialButtons a{color:white;opacity:0.9}.omb_login .omb_socialButtons a:hover{color:white;opacity:1}.omb_login .omb_socialButtons .omb_btn-facebook{background:#3b5998}.omb_login .omb_socialButtons .omb_btn-twitter{background:#00aced}.omb_login .omb_socialButtons .omb_btn-google{background:#c32f10}.omb_login .omb_loginOr{position:relative;font-size:1.5em;color:#aaa;margin-top:1em;margin-bottom:1em;padding-top:0.5em;padding-bottom:0.5em}.omb_login .omb_loginOr .omb_hrOr{background-color:#cdcdcd;height:1px;margin-top:0px !important;margin-bottom:0px !important}.omb_login .omb_loginOr .omb_spanOr{display:block;position:absolute;left:50%;top:-0.6em;margin-left:-1.5em;background-color:white;width:3em;text-align:center}.omb_login .omb_loginForm .input-group.i{width:2em}.omb_login .omb_loginForm .help-block{color:red}@media (min-width:768px){.omb_login .omb_forgotPwd{text-align:right;margin-top:10px}}.container{width:80%;background:white;border:3px solid #d0d0d0;border-radius:20px;padding:15px}.omb_login{text-align:center}img{text-align:center;max-width:250px;vertical-align:middle}body{padding-top:50px;padding-bottom:100px;font-size:12px;height:100%;background:url(http://k32.kn3.net/4DC472B08.jpg);background-repeat:no-repeat;background-size:cover}enter;
-}
-/*img {
+img {
   text-align: center;
-  max-width: 250px;
+  max-width: 100%;
   vertical-align: middle;
-}*/
-body {
+}
+.omb_login {
+  text-align: center;
+}
+.input-group {
+  height: 130px;
+  font-size: 55px;
+  border: 5px solid #dadada;
+}
+.form-control {
+  height: 130px;
+  font-size: 55px;
+  color: #6b6b6b !important;
+}
+.input-group-addon {
+  font-size: 65px;
+  width: 80px;
+}
+.omb_authTitle {
+  font-size: 50px;
   padding-top: 50px;
-  padding-bottom: 100px;
-  font-size: 12px;
-  height: 100%;
-  background: url(http://k32.kn3.net/4DC472B08.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-#menu {
-height: 52px;
-width: 100%;
-background-color: grey;
+.btn-primary {
+  font-size: 65px;
+  background: -webkit-linear-gradient(top, #14cccb 0, #23e4e3 100%);
 }
-#logo{
-	/*position: relative;*/
-	height: -15rem;
-	width: 95%;
-	/*margin-bottom: 100px;*/
-	/*padding-bottom: 100px;*/
-	margin-top: -50px; 
-	padding-left: center;
-	
+.omb_login {
+  padding: 25px;
+  background: white;
+  border: 10px solid #e2e2e2;
+  border-radius: 50px;
+  margin-top: 25%;
 }
-#img{
-	height: -15rem;
-	width: 60%;
-	padding-top: 0.5rem;
-	padding-left: 21%;
+.omb_loginForm {
+  padding: 50px;
 }
-
-#slices {
-height: 359px;
-width: 100%;
-background-color: #FF0;
-}
-
-#cuerpo {
-height: 2000px;
-width: 100%;
-background-color: #C60;
-}
-
-#contenedor {
-width: 100%;
-}
-
-#footer {
-display: inline-block;
-float:left;
-position: fixed;
-height: 4rem ;
-width: 100%;
-bottom: 0px;
-background-color: grey;
-}
-
-#matchmaking{
-position: relative;
-height: 17rem;
-width: 27.5%;
-margin-left: 36.25%;
-bottom: 1.5rem;
-background-color: lightgrey;
-border-radius: 215px 215px 0px 0px;
--moz-border-radius: 215px 215px 0px 0px;
--webkit-border-radius: 215px 215px 0px 0px;
-border: 0px solid #000000;
-/*background-image: url("footer/icono.png");*/
-
-}
-
-#opcion1 {
-display: inline-block;
-float: left;
-height: 120%;
-width: 17.5%;
-background-color: grey;
-bottom: 0px;
-}
-
-#opcion2 {
-display: inline-block;
-float: left;
-height: 120%;
-width: 22.5%;
-background-color: grey;
-bottom: 0px;
-}                              
-
-#opcion3 {
-display: inline-block;
-float: left;
-height: 120%;
-width: 20%;
-background-color: grey;
-}
-
-#opcion4 {
-display: inline-block;
-float: left;
-height: 120%;
-width: 22.5%;
-background-color: grey;
-bottom: 0px;
-}
-
-#opcion5 {
-display: inline-block;
-float: left;
-height: 120%;
-width: 17.5%;
-background-color: grey;
-bottom: 0px;
+body {
+  background-image: url(http://www.webdesignhot.com/wp-content/uploads/2015/11/Abstract-Colorful-Geometric-Shapes-Background-Vector-Illustration.jpg);
 }
