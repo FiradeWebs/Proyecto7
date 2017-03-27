@@ -1,4 +1,15 @@
+<?php 
+include('conexion.php'); 
+session_start();
 
+
+
+if (!isset($_SESSION["usu_id"])){
+	header("location:../index.php");					
+}
+							
+
+?>
 <!DOCTYPE html>
 <html>
 	<head>

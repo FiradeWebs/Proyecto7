@@ -14,12 +14,11 @@
 				$_SESSION['usu_id']	=	$fila[0];
 				//Redireccionamos
 
-				header("location:discover.php");
+				header("location:perfil.php");
 			}
 		}
 		//Si no nos devuelve registros significa que el usuario o contraseña han sido incorrectos.
 		else{
-			print_r("degfdsgds");
 
 			header("location: ../login.php");
 		}
