@@ -15,6 +15,7 @@ extract($_POST);
 	}
 		//Si no existe, lo añadimos a la base de datos
 	else{
+		echo "estoy dentro";
 		if ($_POST['s_password'] != $_POST['s_rpassword'])
 					{
 						?>
@@ -27,12 +28,15 @@ extract($_POST);
 						<?php 
  
 					}
-				else
+				else{
 		//preparamos la consulta de inserción
-		$inser_con="INSERT INTO `tbl_usuario` (`usu_nombre`, `usu_apellidos`, `usu_sexo`, `usu_correo`, `usu_direccion`, `usu_nickname`, `usu_pass`) VALUES ('".$s_name."', '".$s_lastname1."', '".$s_lastname2."', '".$s_email."', '".$s_dirección."', '".$s_nickname."', '".$s_password."');";
+		$inser_con="INSERT INTO `tbl_usuario` (`usu_nombre`, `usu_apellidos`, `usu_sexo`, `usu_correo`, `usu_direccion`, `usu_nickname`, `usu_pass`) VALUES ('".$s_name."', '".$s_lastname1."', '".$s_lastname2."', '".$s_email."', '".$s_dirección."', '".$s_nickname."', '".$s_password."')";
 		//echo $inser_con;die;
 		mysqli_query($conexion,$inser_con);
+		
 		echo "<script type='text/javascript'>alert('registro completado');
 			location.href='../index.php';</script>";
+		}
 	}
+
  ?>

@@ -90,7 +90,7 @@
 				<!--Contraseña -->
 					  <div class="input-group">
 					  <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
-								    <input type="password" class="form-control" id="s_rpassword" placeholder="Por favor repita su contraseña" required>
+								    <input type="password" class="form-control" id="s_rpassword" name="s_rpassword" placeholder="Por favor repita su contraseña" required>
 					  </div>
 					    <br>
 				<!--End contraseña -->
