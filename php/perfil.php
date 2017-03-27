@@ -23,6 +23,9 @@ if (!isset($_SESSION["usu_id"])){
 	</head>
 	<body>
 <div class="container">
+
+<a href="logout.php">Cerrar Sesión</a>
+
 <div class="omb_login">
 <div class="row omb_row-sm-offset-3 omb_loginOr">
 <hr class="omb_hrOr">
