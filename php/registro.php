@@ -20,11 +20,11 @@
 				<div class="omb_login">
 
 				 <div class="row omb_row-sm-offset-3">
-			<div class="col-xs-12 col-sm-6">
-			<img src="../img/logo_17-03(v2).png">
+			<div class="">
+			<a href="../index.php"><img src="../img/logo_17-03(v2).png"></a>
 				<br><br>
 
-				<form name="fr_sig" class="form-horizontal" role="form" action="./register.proc.php" method="POST">
+				<form name="fr_sig" class="form-horizontal omb_loginForm" role="form" action="./register.proc.php" method="POST">
 				<!--nombre -->
 				 <div class="input-group">
 					   		<span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -45,7 +45,7 @@
 
 			<div class="input-group">
 					   		<span class="input-group-addon"><i class="fa fa-female" aria-hidden="true"></i>/<i class="fa fa-male" aria-hidden="true"></i></span>
-					    		  <select  class="form-control" id="s_lastname2" name="s_lastname2" >
+					    		  <select  class="form-control control" id="s_lastname2" name="s_lastname2" >
 											<option value="Masculino">Masculino</option>
 											<option value="Femenino">Femenino</option>
 											<option value="Otro">Otro</option>
@@ -95,7 +95,7 @@
 					    <br>
 				<!--End contraseña -->
 				<div class="row omb_row-sm-offset-3">
-					  <div class="col-xs-12 col-sm-6">
+					  <div class="">
 					  	<button class="btn btn-lg btn-primary btn-block" onclick="return reg_validar();">¡Regístrate!</button>
 					  	<input type="reset" class=" btn btn-lg btn-primary btn-block" value="Borrar datos" />
 					  </div>

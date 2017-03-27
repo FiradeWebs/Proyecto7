@@ -39,5 +39,5 @@ img {
   padding: 50px;
 }
 body {
-  background-image: url(../img/fondo.jpg);
+	background: rgb(20, 204, 203);
 }
