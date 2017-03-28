@@ -29,7 +29,8 @@ SET time_zone = "+00:00";
 CREATE TABLE `tbl_categoria` (
   `cat_id` int(3) NOT NULL,
   `cat_nombre` varchar(20) COLLATE utf8_spanish2_ci NOT NULL,
-  `cat_padre` int(5) NOT NULL
+  `cat_padre` int(5) NOT NULL,
+  `cat_img` varchar(10) COLLATE utf8_spanish2_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
 
 --

@@ -1,9 +1,9 @@
-<?php 
-include('conexion.php'); 
+<?php
 session_start();
-if (!isset($_SESSION["usu_id"])){
-	header("location:../index.php");					
-}
+include 'conexion.php';
+		if(!isset($_SESSION["usu_id"])) {
+			header("location:../index.php?nolog=2");
+		}
 //realizamos la conexión
 		
 		extract($_REQUEST);

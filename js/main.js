@@ -1,20 +1,18 @@
 /**
  * jTinder initialization
  */
- var id = $('#id').val();
+
 
 $("#tinderslide").jTinder({
 	// dislike callback
     onDislike: function (item) {
     	var dec = "No";
-
     	$.ajax({
-                    type: "POST",
-                    url: "insert_interes.proc.php?dec=" + dec,
-                    data: $("#cat_id").serialize(),// Adjuntar los campos del formulario enviado.
+                    type: "GET",
+                    url: "insert_interes.proc.php?dec=" + dec + "&cat_id=" + item,
                     success: function(data){
                     	//var id = $('#id').val();
-                    	 $('#status').html('Dislike image ' + (item.index()+1));
+                    	 //$('#status').html('Dislike image ' + (item));
 
                                 
             }
@@ -25,11 +23,11 @@ $("#tinderslide").jTinder({
     onLike: function (item) {
     	var dec = "Si";
     	$.ajax({
-                    type: "POST",
-                    url: "insert_interes.proc.php?dec=" + dec,
-                     // Adjuntar los campos del formulario enviado.
+                    type: "GET",
+                    url: "insert_interes.proc.php?dec=" + dec + "&cat_id=" + item,
+                    
                     success: function(data){
-                    	 $('#status').html('Like image ' + (item.index()+1));
+                    	 //$('#status').html('Like image ' + (item));
                     	 
 
                                 

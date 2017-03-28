@@ -1,8 +1,8 @@
-<?php 
-include('conexion.php'); 
+<?php
+include('conexion.php');
 session_start();
 if (!isset($_SESSION["usu_id"])){
-	header("location:../index.php");					
+	header("location:../index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -26,9 +26,9 @@ if (!isset($_SESSION["usu_id"])){
 		<!-- Latest compiled and minified CSS -->
 	<meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
 	<meta name="mobile-web-app-capable" content="yes">
-		
+
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0"> -->
-    
+
     <link rel="stylesheet" type="text/css" href="../css/jTinder.css">
     	<!-- jQuery lib -->
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -42,14 +42,17 @@ if (!isset($_SESSION["usu_id"])){
 	<link rel="stylesheet" type="text/css" href="../css/jTinder.css">
 	</head>
 	<body>
-	<div id="status"></div>
+		<div class="container" style="background: white;">
+		<iframe style="width: 100%;height: 1080px;" src="http://knewaboutit.tk/" />
+	</div>
+
 
 
 	<div id="footer">
 	    <div id ="opcion1"><a href="perfil.php"><img id="img" src="../img/footer/ajuste_p.png"></a></div>
         <div id="opcion2"><a href="agenda.php"><img id="img" src="../img/footer/contacto_m.png"></a></div>
         <div id="opcion3"></div>
-        <div id="opcion4"><a href="perfil.php"><img id="img" src="../img/footer/perfil_m.png"></a></div>
+        <div id="opcion4"><a href="mylist.php"><img id="img" src="../img/footer/perfil_m.png"></a></div>
         <div id="opcion5"><a href="near.php"><img id="img"  src="../img/footer/ubicacion_m.png"></a></div>
         <div id="matchmaking"><a href="discover.php"><img id="logo" src="../img/footer/logo.png"></a></div>
 	</div>

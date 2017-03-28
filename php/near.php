@@ -1,13 +1,13 @@
-<?php 
-include('conexion.php'); 
+<?php
+include('conexion.php');
 session_start();
 if (!isset($_SESSION["usu_id"])){
-	header("location:../index.php");					
+	header("location:../index.php");
 }
 ?>
 <!DOCTYPE html>
 <?php
-        
+
         extract($_REQUEST);
          $sql = "SELECT `usu_direccion`  FROM `tbl_usuario` WHERE `usu_id`=2";
 
@@ -17,15 +17,15 @@ if (!isset($_SESSION["usu_id"])){
               $dir=$mapas['usu_direccion'];
             }
 
-        }       
+        }
         $direccion= urlencode($dir);
- 
+
         //Buscamos la direccion en el servicio de google
         $geocode=file_get_contents('http://maps.google.com/maps/api/geocode/json?address='.$direccion.'&sensor=false');
- 
+
         //decodificamos lo que devuelve google, que esta en formato json
         $output= json_decode($geocode);
- 
+
         //Extraemos la informacion que nos interesa
         $latitud = $output->results[0]->geometry->location->lat;
         $longitud = $output->results[0]->geometry->location->lng;
@@ -61,9 +61,9 @@ if (!isset($_SESSION["usu_id"])){
     <!-- Latest compiled and minified CSS -->
   <meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
   <meta name="mobile-web-app-capable" content="yes">
-    
+
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0"> -->
-    
+
     <link rel="stylesheet" type="text/css" href="../css/jTinder.css">
       <!-- jQuery lib -->
   <script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -96,7 +96,7 @@ function initMap() {
   var lo= parseFloat('<?php echo $longitud; ?>');
   var myLatLng = {lat: la , lng: lo};
 
-  
+
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
@@ -146,14 +146,14 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     <div id="status"></div>
 
 
-  <div id="footer">
-      <div id ="opcion1"><a href="perfil.php"><img id="img" src="../img/footer/ajuste_p.png"></a></div>
-        <div id="opcion2"><a href="agenda.php"><img id="img" src="../img/footer/contacto_m.png"></a></div>
-        <div id="opcion3"></div>
-        <div id="opcion4"><a href="perfil.php"><img id="img" src="../img/footer/perfil_m.png"></a></div>
-        <div id="opcion5"><a href="near.php"><img id="img"  src="../img/footer/ubicacion_m.png"></a></div>
-        <div id="matchmaking"><a href="discover.php"><img id="logo" src="../img/footer/logo.png"></a></div>
-  </div>
+		<footer>
+		    <div id ="opcion1"><a href="perfil.php"><img id="img" src="../img/footer/ajuste_p.png"></a></div>
+	        <div id="opcion2"><a href="agenda.php"><img id="img" src="../img/footer/contacto_m.png"></a></div>
+	        <div id="opcion3"></div>
+	        <div id="opcion4"><a href="mylist.php"><img id="img" src="../img/footer/perfil_m.png"></a></div>
+	        <div id="opcion5"><a href="near.php"><img id="img"  src="../img/footer/ubicacion_m.png"></a></div>
+	        <div id="matchmaking"><a href="discover.php"><img id="logo" src="../img/footer/logo.png"></a></div>
+		</footer>
 
   </body>
 </html>

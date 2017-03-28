@@ -15,7 +15,7 @@ body {
   background-size: cover;
 }
 #menu {
-height: 52px;
+height: 10rem;
 width: 100%;
 background-color: grey;
 
@@ -55,7 +55,7 @@ background-color: #C60;
 width: 100%;
 }
 
-#footer {
+footer {
 display: inline-block;
 float:left;
 position: fixed;
@@ -63,6 +63,7 @@ height: 10rem ;
 width: 100%;
 bottom: 0px;
 background-color: grey;
+z-index: 1;
 }
 
 #matchmaking{
@@ -95,7 +96,7 @@ height: 120%;
 width: 19%;
 background-color: grey;
 bottom: 0px;
-}                              
+}
 
 #opcion3 {
 display: inline-block;
@@ -173,7 +174,11 @@ img {
   border-radius: 50px;
 }
 .container{
-  margin-top: 15%;
+  margin-top: 0.5rem;
+  margin-bottom: 15rem;
+}
+.titulo{
+  margin-top: 45px;
 }
 .omb_loginForm {
   padding: 50px;
