@@ -20,7 +20,7 @@
 		//Si no nos devuelve registros significa que el usuario o contraseña han sido incorrectos.
 		else{
 
-			header("location: ../login.php");
+			header("location: ../index.php");
 		}
 
 
