@@ -14,7 +14,7 @@
 				$_SESSION['usu_id']	=	$fila[0];
 				//Redireccionamos
 
-				header("location:perfil.php");
+				header("location:discover.php");
 			}
 		}
 		//Si no nos devuelve registros significa que el usuario o contraseña han sido incorrectos.
