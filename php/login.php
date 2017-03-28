@@ -1,14 +1,12 @@
-<?php 
-include('conexion.php'); 
+<?php
+include('conexion.php');
 session_start();
-
-
-
 if (!isset($_SESSION["usu_id"])){
-	header("location:../index.php");					
+	//nada
 }
-							
-
+else {
+	header("location:/php/discover.php");
+}
 ?>
 <!DOCTYPE html>
 <html>

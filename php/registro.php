@@ -21,7 +21,7 @@
 
 				 <div class="row omb_row-sm-offset-3">
 			<div class="">
-			<img src="../img/logo_17-03(v2).png">
+			<a href="../index.php"><img src="../img/logo_17-03(v2).png"></a>
 				<br><br>
 
 				<form name="fr_sig" class="form-horizontal" role="form" action="./register.proc.php" method="POST">
