@@ -1,13 +1,13 @@
-<?php 
-include('conexion.php'); 
+<?php
+include('conexion.php');
 session_start();
 
 
 
 if (!isset($_SESSION["usu_id"])){
-	header("location:../index.php");					
+	header("location:../index.php");
 }
-							
+
 
 ?>
 <!DOCTYPE html>
@@ -29,10 +29,10 @@ if (!isset($_SESSION["usu_id"])){
 	</head>
 	<body>
 			<div class="container">
-				<div class="omb_login">
+				<div class="omb_login" style="padding:50px;">
 
 				 <div class="row omb_row-sm-offset-3">
-			<div class="col-xs-12 col-sm-6">
+			<div class="">
 			<img src="../img/logo_17-03(v2).png">
 				<br><br>
 
@@ -107,7 +107,7 @@ if (!isset($_SESSION["usu_id"])){
 					    <br>
 				<!--End contraseña -->
 				<div class="row omb_row-sm-offset-3">
-					  <div class="col-xs-12 col-sm-6">
+					  <div class="">
 					  	<button class="btn btn-lg btn-primary btn-block" onclick="return reg_validar();">¡Regístrate!</button>
 							<br>
 					  	<input type="reset" class=" btn btn-lg btn-primary btn-block" value="Borrar datos" />
